@@ -17,15 +17,9 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>TM_COMMENT_START_2</string>
+				<string>TM_COMMENT_END</string>
 				<key>value</key>
-				<string>{% comment %}</string>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>TM_COMMENT_END_2</string>
-				<key>value</key>
-				<string>{% endcomment %}</string>
+				<string> #}</string>
 			</dict>
 		</array>
 	</dict>
