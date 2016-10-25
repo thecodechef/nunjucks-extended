@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{% extends "${1:file/to/extend}" %}
+]]></content>
+	<description>{% extends %}</description>
+	<tabTrigger>extends</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

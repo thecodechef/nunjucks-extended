@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{% asyncAll ${1:link} in ${2:links} %}
+	${3:{# Code goes here... #}}
+{% endasyncAll %}
+]]></content>
+	<description>{% asyncAll %}{% endasyncAll %}</description>
+	<tabTrigger>async:a</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

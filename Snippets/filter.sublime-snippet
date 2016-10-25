@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{% filter ${1:filter} %}
+	${2:{# Code goes here... #}}
+{% endfilter %}
+]]></content>
+	<description>{% filter %}{% endfilter %}</description>
+	<tabTrigger>filter</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

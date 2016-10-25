@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{% raw %}
+	${1:{# Code goes here... #}}
+{% endraw %}
+]]></content>
+	<description>{% raw %}{% endraw %}</description>
+	<tabTrigger>raw</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

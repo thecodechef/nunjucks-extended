@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{% block ${1:name} %}
+	${2:{# Code goes here... #}}
+{% endblock %}
+]]></content>
+	<description>{% block %}{% endblock %}</description>
+	<tabTrigger>block</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

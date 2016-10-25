@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{% include "${1:path/to/include}" ignore missing %}
+]]></content>
+	<description>{% include ignore missing %}</description>
+	<tabTrigger>include:im</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

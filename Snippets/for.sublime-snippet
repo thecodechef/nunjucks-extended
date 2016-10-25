@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{% for ${1:link} in ${2:links} %}
+	${3:{# Code goes here... #}}
+{% endfor %}
+]]></content>
+	<description>{% for %}{% endfor %}</description>
+	<tabTrigger>for</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

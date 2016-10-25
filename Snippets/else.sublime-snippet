@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{% else %}
+	${1:{# Code goes here #}}
+]]></content>
+	<description>{% else %}</description>
+	<tabTrigger>else</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

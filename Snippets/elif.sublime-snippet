@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+{% elif ${1:condition} %}
+	${2:{# Code goes here... #}}
+]]></content>
+	<description>{% elif %}</description>
+	<tabTrigger>elif</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

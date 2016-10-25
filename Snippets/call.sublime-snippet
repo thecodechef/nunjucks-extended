@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{% call ${1:macro} %}
+	${2:{# Code goes here... #}}
+{% endcall %}
+]]></content>
+	<description>{% call %}{% endcall %}</description>
+	<tabTrigger>call</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>

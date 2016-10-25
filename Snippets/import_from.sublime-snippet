@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{% from "${1:path/to/macro}" import ${2:macro} %}
+]]></content>
+	<description>{% from import %}</description>
+	<tabTrigger>import:f</tabTrigger>
+	<scope>text.html.njk,source.njk</scope>
+</snippet>
