@@ -5,6 +5,6 @@
 {% endset %}
 ]]></content>
 	<description>{% set %}{% endset %}</description>
-	<tabTrigger>set:b</tabTrigger>
+	<tabTrigger>set_b</tabTrigger>
 	<scope>text.html.njk,source.njk</scope>
 </snippet>

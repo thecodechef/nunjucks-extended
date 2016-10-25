@@ -7,6 +7,6 @@
 {% endfor %}
 ]]></content>
 	<description>{% for %}{% else %}{% endfor %}</description>
-	<tabTrigger>for:e</tabTrigger>
+	<tabTrigger>for_else</tabTrigger>
 	<scope>text.html.njk,source.njk</scope>
 </snippet>

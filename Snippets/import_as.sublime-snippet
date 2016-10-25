@@ -3,6 +3,6 @@
 {% import "${1:path/to/macro}" as ${2:var} %}
 ]]></content>
 	<description>{% import as %}</description>
-	<tabTrigger>import:a</tabTrigger>
+	<tabTrigger>import_as</tabTrigger>
 	<scope>text.html.njk,source.njk</scope>
 </snippet>

@@ -7,6 +7,6 @@
 {% endif %}
 ]]></content>
 	<description>{% if %}{% else %}{% endif %}</description>
-	<tabTrigger>if:e</tabTrigger>
+	<tabTrigger>if_else</tabTrigger>
 	<scope>text.html.njk,source.njk</scope>
 </snippet>

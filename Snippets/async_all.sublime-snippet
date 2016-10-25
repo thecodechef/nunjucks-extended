@@ -5,6 +5,6 @@
 {% endasyncAll %}
 ]]></content>
 	<description>{% asyncAll %}{% endasyncAll %}</description>
-	<tabTrigger>async:a</tabTrigger>
+	<tabTrigger>async_all</tabTrigger>
 	<scope>text.html.njk,source.njk</scope>
 </snippet>

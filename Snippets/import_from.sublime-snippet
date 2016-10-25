@@ -3,6 +3,6 @@
 {% from "${1:path/to/macro}" import ${2:macro} %}
 ]]></content>
 	<description>{% from import %}</description>
-	<tabTrigger>import:f</tabTrigger>
+	<tabTrigger>import_from</tabTrigger>
 	<scope>text.html.njk,source.njk</scope>
 </snippet>

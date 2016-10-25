@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+{% $0 %}
+]]></content>
+	<description>{% ... %}</description>
+	<tabTrigger>%%</tabTrigger>
+	<scope>source.njk,text.html.njk</scope>
+</snippet>
