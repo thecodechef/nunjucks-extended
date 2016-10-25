@@ -1,0 +1,12 @@
+%YAML 1.2
+---
+name: HTML (Nunjucks)
+file_extensions:
+  - html.nunjucks
+  - html.nunjs
+  - html.njk
+scope: text.html.njk
+contexts:
+  main:
+    - include: Packages/HTML/HTML.sublime-syntax
+    - include: Packages/Nunjucks Extended/Nunjucks.sublime-syntax

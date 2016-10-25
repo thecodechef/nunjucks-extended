@@ -1,0 +1,7 @@
+{
+	"shell_cmd":"nunjucks $file data.json",
+	"selector":"source.njk",
+	"osx": {"path": "/usr/local/bin:$PATH"},
+	"windows": {"shell": "true"},
+	"linux":{"":"/usr/bin:$PATH"}
+}
