@@ -1,26 +1,29 @@
-README
+Nunjucks Extended
 ======
 
-.. image:: github_tag_img_
-    :target: github_tag_url_
-.. image:: github_dt_img_
-    :target: github_dt_url_
-.. images:: pkgctrl_dt_img_
-    :target: pkgdtrl_dt_url_
+A Better Nunjucks Syntax Highlighter for Sublime Text
 
 
-..  Url Link Variables
+.. image:: https://img.shields.io/github/tag/thecodechef/nunjucks-extended.svg?style=flat-square
+    :target: https://github.com/thecodechef/nunjucks-extended
+    :align: right
 
-.. _pkgctrl_dt_img: http://shields.io/packagecontrol/dt/Nunjucks%20Extended.svg?style=flat-square
-.. _pkgctrl_dt_url: http://packagecontrol.io/packages/Nunjucks%20Extended
+.. image:: https://img.shields.io/github/downloads/thecodechef/nunjucks-extended/latest/total.svg?style=flat-square
+    :target: https://github.com/thecodechef/nunjucks-extended
+    :align: right
 
-.. _github_tag_img: http://shields.io/github/release/thecodechef/nunjucks-extended.svg?style=flat-square
-.. _github_tag_url: http://github.com/thecodechef/nunjucks-extended
+.. image:: https://img.shields.io/packagecontrol/dt/Nunjucks%20Extended.svg?style=flat-square
+    :target: https://packagecontrol.io/packages/Nunjucks%20Extended
+    :align: right
 
-.. _github_dt_img: http://shields.io/github/downloads/thecodechef/nunjucks-extended/latest/total.svg?style=flat-square
-.. _github_dt_url: http://github.com/thecodechef/nunjucks-extended
+Table of Contents
+-----------------
+- Installation_
+- Contributing_
+- Authors_
 
 
+.. Installation:
 Installation
 ------------
 
@@ -31,12 +34,45 @@ Package Control:
 - Press ``shift+ctrl+p`` and type in ``Package Controll:``
 - Then Type in ``Install Package`` and Press Enter
 - Search for ``Nunjucks Extended`` and Press Enter
+- Restart Sublime Text And Enjoy!
 
 Manually:
 +++++++++
 - Change directories into your Packages Directory
-    - **Windows**
-    - **Mac**
+    - **Windows** ``$env:appdata\Sublime Text 3\Packages\``
+    - **Mac**  ``~/Library/Application\ Support/Sublime\ Text\ 3/Packages/``
     - **Linux** ``cd .config/sublime-text-3/Packages/``
 - ``git clone http://github.com/thecodechef/nunjucks-extended.git``
-- 
+- Restart Sublime Text and Enjoy!
+
+
+.. Contributing:
+Contributing
+------------
+
+Adding Features
++++++++++++++++
+
+- First off create a fork of this repo
+- then in your terminal type ``cd git clone http://github.com/[your-username]/nunjucks-extended.git [path-to-place-repo]``
+- to create a feature branch: ``git checkout -b my-feature-branch`` 
+
+
+
+.. Authors:
+Authors
+-------
+
+- **Jeremy Bolding**
+   - Github_
+   - Twitter_
+
+
+.. _Github: http://github.com/thecodechef
+.. _Twitter: http://twitter.com/thecodechef
+
+
+-------------
+
+
+

@@ -725,6 +725,7 @@ contexts:
         - include: njk-functions
         - include: njk-macros
         - include: njk-objects
+        - include: njk-operators
         - include: njk-properties
         - include: njk-filters-warg
         - include: njk-filters
@@ -747,10 +748,10 @@ contexts:
     - match: (?<=\s)(&|\||\^)(?=\s)
       captures:
         1: keyword.operator.bitwise.njk
-    - match: (?<=\s)((?:!|=)=|<=?|>=?|i(?:s|n))(?=\s)
+    - match: (?<=\s)((?:!|=)=|((?:!|=)==|>|<|<=?|>=?|i(?:s|n))(?=\s)
       captures:
         1: keyword.operator.comparison.njk
-    - match: (?<=\s)(not|or|and|\?|:)(?=\s)
+    - match: (?<=\s)(by|not|or|and|\?|:)(?=\s)
       captures:
         1: keyword.operator.logical.njk
     - match: '(?<=[a-zA-Z0-9_\x{7f}-\x{ff}\]\)''"])\*\*(?=[a-zA-Z0-9_\x{7f}-\x{ff}''"])'
